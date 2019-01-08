@@ -1,3 +1,4 @@
+package com.javarush.task.task01.task0131;
 
 /* 
 Полнометражная картина
@@ -10,5 +11,6 @@ public class Solution {
 
     public static int getMetreFromCentimetre(int centimetre) {
         //напишите тут ваш код
+        return centimetre / 100;
     }
 }
